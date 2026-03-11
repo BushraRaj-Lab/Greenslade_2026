@@ -1,5 +1,5 @@
 # Greenslade_2026
-This repository contains the R scripts used to create and process the Signac objects used for analysis in the manuscript "Single-cell chromatin profiling reveals dynamic regulatory logic and enhancer elements in brain and retina development", Jessie E. Greenslade, Hemagowri Veeravenkatasubramanian1, Marisa Reed, and Bushra Raj.
+This repository contains the R scripts used to create and process the Signac objects used for analysis in the manuscript "Single-cell chromatin profiling reveals dynamic regulatory logic and enhancer elements in brain and retina development", Jessie E. Greenslade, Hemagowri Veeravenkatasubramanian, Marisa Reed, and Bushra Raj.
 
 All raw sequencing files and processed/annotated objects can be downloaded at GEO accession GSE324435.
 
