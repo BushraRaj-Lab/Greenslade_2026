@@ -19,7 +19,7 @@ options(future.globals.maxSize = 50000 * 1024^2) # for 50 Gb RAM
 
 # read in peak sets
 peaks.3 <- read.table(
-  file = "aggr.adult_peaks.bed",
+  file = "aggr.3dpf_peaks.bed",
   col.names = c("chr", "start", "end")
 )
 peaks.21 <- read.table(
@@ -27,7 +27,7 @@ peaks.21 <- read.table(
   col.names = c("chr", "start", "end")
 )
 peaks.adult <- read.table(
-  file = "aggr.3dpf_peaks.bed",
+  file = "aggr.adult_peaks.bed",
   col.names = c("chr", "start", "end")
 )
 
@@ -51,7 +51,7 @@ write.csv(combined.peaks, "combined.peaks.csv")
 
 # load metadata
 md.3 <- read.table(
-  file = "aggr.adult_singlecell.csv",
+  file = "aggr.3dpf_singlecell.csv",
   stringsAsFactors = FALSE,
   sep = ",",
   header = TRUE,
@@ -67,7 +67,7 @@ md.21 <- read.table(
 )[-1, ]
 
 md.adult <- read.table(
-  file = "aggr.3dpf_singlecell.csv",
+  file = "aggr.adult_singlecell.csv",
   stringsAsFactors = FALSE,
   sep = ",",
   header = TRUE,
@@ -83,7 +83,7 @@ md.adult <- md.adult[md.adult$passed_filters > 500, ]
 
 # create fragment objects
 frags.3 <- CreateFragmentObject(
-  path = "aggr.adult_fragments.tsv.gz",
+  path = "aggr.3dpf_fragments.tsv.gz",
   cells = rownames(md.3)
 )
 
@@ -93,7 +93,7 @@ frags.21 <- CreateFragmentObject(
 )
 
 frags.adult <- CreateFragmentObject(
-  path = "aggr.3dpf_fragments.tsv.gz",
+  path = "aggr.adult_fragments.tsv.gz",
   cells = rownames(md.adult)
 )
 
