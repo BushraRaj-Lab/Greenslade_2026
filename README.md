@@ -19,3 +19,8 @@ To ensure reproducibility, this repository includes the necessary outputs from t
 peaks.bed: The aggregate peak calls used to define the initial chromatin landscape.
 
 singlecell.csv: The per-barcode resource containing QC metrics (fragments, TSS enrichment, etc.) required for filtering.
+
+### Index Fragment Files
+
+In order to run the Signac function, CoveragePlot(), you need a tabix-indexed fragment file.  Download the tsv.gz fragment files from the NCBI Gene Expression
+Omnibus (GEO) under accession GSE134055.  You can generate the required .tbi index files directly in R using Rsamtools shown in this R script.
