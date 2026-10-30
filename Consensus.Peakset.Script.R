@@ -223,8 +223,8 @@ VlnPlot(object = dpf21,
 
 dpf21 <- subset(x = dpf21, 
                 subset = peak_region_fragments > 2000 & 
-                  peak_region_fragments < 25000 & 
-                  pct_reads_in_peaks > 60 & 
+                  peak_region_fragments < 40000 & 
+                  pct_reads_in_peaks > 50 & 
                   blacklist_ratio < 0.005 & 
                   nucleosome_signal < 4 &  
                   TSS.enrichment > 2 
