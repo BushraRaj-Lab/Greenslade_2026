@@ -63,7 +63,7 @@ Greenslade_2026/
 |---|---|
 | `Fig3_RunChromVar.R` | Runs ChromVAR on Signac objects to compute per-cell TF motif deviation scores |
 | `Fig3A_C_Motif.enrichment.R` | DA analysis on ChromVAR assay to identify motif enrichment across clusters; plots heatmaps and FeaturePlots; co-embeds 3 dpf scATAC and scRNA objects to identify candidate regulators (Fig3A–C) |
-| `Fig3D.E_S7_Jaccard.Index.R` | Compares enriched motif profiles across timepoints using Jaccard Index analysis (Fig3D–E, FigS6) |
+| `Fig3D.E_S7_Jaccard.Index.R` | Compares enriched motif profiles across timepoints using Jaccard Index analysis (Fig3D–E, FigS7) |
 
 ---
 ## Supplementary Files
