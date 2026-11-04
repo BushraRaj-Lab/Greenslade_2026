@@ -26,7 +26,7 @@ Greenslade_2026/
 │   └── Figure3/
 │       ├── Fig3_RunChromVar.R
 │       ├── Fig3A_C_Motif.enrichment.R
-│       └── Fig3D.E_S6_Jaccard.Index.R
+│       └── Fig3D.E_S7_Jaccard.Index.R
 ├── supplementary/
 │   ├── peaks.bed
 │   ├── singlecell.csv
@@ -50,7 +50,7 @@ Greenslade_2026/
 | `Fig2C_Global.Heatmap.R` | Global differential accessibility (DA) analysis across timepoints; plots DA peaks in a heatmap (Fig2C) |
 | `Fig2_brain.DARs.R` | DA peak analysis for the integrated brain object; outputs CSV of DA peaks across cell types |
 | `Fig2_retina.DARs.R` | DA peak analysis for the integrated retina object; outputs CSV of DA peaks across cell types |
-| `Fig2F_I.R` | Dotplot analysis (Fig2F–G) and Barplot analysis (Fig2H–I) |
+| `Fig2H_I.R` | Dotplot analysis and Barplot analysis (Fig2H–I) |
 | `LinkPeaks.R` | Peak-to-gene correlation for all DA peaks across clusters |
 | `FigS3A_retina.heatmap.R` | Plots accessibility of cluster-specific DA peaks for retina (FigS3A) |
 | `FigS3B_brain.heatmap.R` | Plots accessibility of cluster-specific DA peaks for brain (FigS3B) |
@@ -63,7 +63,7 @@ Greenslade_2026/
 |---|---|
 | `Fig3_RunChromVar.R` | Runs ChromVAR on Signac objects to compute per-cell TF motif deviation scores |
 | `Fig3A_C_Motif.enrichment.R` | DA analysis on ChromVAR assay to identify motif enrichment across clusters; plots heatmaps and FeaturePlots; co-embeds 3 dpf scATAC and scRNA objects to identify candidate regulators (Fig3A–C) |
-| `Fig3D.E_S6_Jaccard.Index.R` | Compares enriched motif profiles across timepoints using Jaccard Index analysis (Fig3D–E, FigS6) |
+| `Fig3D.E_S7_Jaccard.Index.R` | Compares enriched motif profiles across timepoints using Jaccard Index analysis (Fig3D–E, FigS6) |
 
 ---
 ## Supplementary Files
