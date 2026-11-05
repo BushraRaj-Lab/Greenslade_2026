@@ -13,6 +13,8 @@ We provide a temporally resolved single-cell chromatin accessibility resource of
 Greenslade_2026/
 ├── scripts/
 │   ├── Consensus.Peakset.Script.R
+│   ├── Figure1/
+│   │   ├── Clustering.and.Label.Transfer.R
 │   ├── Figure2/
 │   │   ├── Fig2A.B.R
 │   │   ├── Fig2C_Global.Heatmap.R
@@ -40,6 +42,9 @@ Greenslade_2026/
 
 ### Preprocessing
 - **Consensus.Peakset.Script.R** — Generates a consensus peak set across 3 dpf, 21 dpf, and adult timepoints. Builds ChromatinAssay objects and performs QC filtering steps for each Signac object.
+
+### Figure 1 - Clustering and Label Transfer Framework
+- **Clustering.and.Label.Transfer.R**  — Provides the framework used to cluster and predict annotations using the Seurat/Signac package tools, including label transfer of scRNA-seq labels. 
 
 ---
 ### Figure 2 — Chromatin Accessibility Landscapes
